@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Signika Negative';
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, 0.8), rgba(0,0,0, 0.8)), url(./IMG/HOME-BACKGROUND.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: fixed;
+}
+.nav-link{
+    display: flex;
+    padding: 2% 6%;
+    align-items: center;
+    justify-content: center;
+
+}
+.nav-link h1{
+    padding-right: 80px;
+    font-size: 20px;
+    flex: 1;
+    text-align: left;
+    color: #fff;
+}
+.nav-link h1 a{
+    text-decoration: none;
+    color: #fff;
+}
+.hall-booking{
+    width: 90%;
+
+    position: absolute;
+    background-color: #fff;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    padding: 80px 20px;
+    text-align: center;
+    /* z-index: 2; */
+}
+.hall-booking h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+    color: #00000097;
+}
+.hall-booking hr{
+    border-bottom: solid 1.5px gold;
+}
+.hall-booking .hall{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    align-items: center;
+}
+.hall-booking .hall div{
+    width: 250px;
+    height: 300px;
+    background-color: black;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.hall-booking .hall div img{
+    width: 300px;
+}
+/* .hall-booking .hall .hall-1{
+    background-image: url(IMG/multipurposeHall.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hall-booking .hall .hall-2{
+    background-image: url(IMG/SPECIAL\ HALL.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hall-booking .hall .hall-3{
+    background-image: url(IMG/OPEN\ HALL.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.hall-booking .hall .hall-4{
+    background-image: url(IMG/CONFERENCE\ HALL.jpeg);
+    background-position: center;
+    background-size: cover;
+} */
+.hall-booking .hall div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    position: absolute;
+
+}
+.hall-booking .hall div a:hover{
+    text-decoration: none;
+    background-color: rgba(255, 217, 0, 0.781);
+    padding: 100px 70px;
+    color: #000;
+    font-size: 18px;
+    transition: all 0.5s;
+}
+
